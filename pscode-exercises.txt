@@ -20,13 +20,13 @@ d) Write out the results found from steps b and c with a message describing what
  
 list = 1, 2, 3, 4, 5
  
-Average = sum(list)/len(list)
+average = sum(list)/len(list)
 
-Minimum = min(list)
-Maximum = max(list)
+minimum = min(list)
+maximum = max(list)
 
-Print "The average of this list is [average]."
-Print "The minimum of this list is [minimum]."
-Print "The maximum of this list is [maximum]." 
+print(f"The average of this list is {average}.")
+print(f"The minimum of this list is {minimum}.")
+print(f"The maximum of this list is {maximum}.") 
 
 -- END --
